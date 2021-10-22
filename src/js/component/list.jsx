@@ -56,7 +56,7 @@ export const List = () => {
 													e.target.value
 										  ),
 										  addTask(e.target.value),
-										  console.log(list))
+										  (e.target.value = ""))
 										: swal(
 												"That item is already on the list!"
 										  );
